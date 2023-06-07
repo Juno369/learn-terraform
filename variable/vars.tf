@@ -1,9 +1,9 @@
 variable "sample" {
-  default = "Hello world"
+  default = 900
 }
 
 variable "sample1" {
-  default = 900
+  default = "hello world"
 }
 
 output "sample" {
@@ -15,5 +15,5 @@ output "sample1" {
 }
 
 output "sample2" {
-  value = "value of sample = ${vars.sample1} "
+  value = "value of sample = ${vars.sample} "
 }
