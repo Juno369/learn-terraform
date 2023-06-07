@@ -3,15 +3,15 @@ variable "sample" {
 }
 
 variable "sample1" {
-  default = "hello world"
+  default = "Hello World"
 }
 
 output "sample" {
-  value = "var.sample"
+  value = var.sample
 }
 
 output "sample1" {
-  value = "var.sample1"
+  value = var.sample1
 }
 
 output "sample2" {
